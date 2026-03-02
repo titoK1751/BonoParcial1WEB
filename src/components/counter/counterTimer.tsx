@@ -44,14 +44,14 @@ function CounterTimer() {
 
   return (
     <div className="space-y-3 rounded-md border p-4">
-      <p className="text-lg font-semibold">counter: {count}</p>
-      <p className="text-sm">time left: {timeLeft} seconds</p>
+      <p className="text-lg font-semibold">{count}</p>
+      <p className="text-sm">Time left: {timeLeft} seconds</p>
       <button
         type="button"
         onClick={handleIncreaseCounter}
         className="rounded-md border px-4 py-2 text-sm font-medium hover:bg-gray-100"
       >
-        aumentar contador
+        +
       </button>
     </div>
   );
